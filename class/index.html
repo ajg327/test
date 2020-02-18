@@ -9,38 +9,52 @@
     <meta name="author" content="Andrew Granja">
     <meta name="description" content="Basic HTML example">
     <meta name="keywords" content="HTML, JS, CSS, Basic example">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <!-- Media query for narrow browser width -->
+   <link rel="stylesheet" media="only screen and (max-width: 480px)" href="css/mobile.css">
+   <!-- Prevent smartphones from scaling pages down -->
+<meta name="viewport" content="initial-scale=1">
   </head>
   <!-- This is the body of my website -->
   <body>
     <!-- This is my Header -->
     <header>
-      <nav>
-        <ul>
+      <nav class="navigation">
+        <ul class="horizontalLine">
+          <!-- This is an absolute tag -->
           <li> <a href="https://www.apple.com">Apple</a> </li>
           <li> <a href="https://www.youtube.com">YouTube</a> </li>
           <li>  <a href="https://twitter.com">Twitter</a> </li>
         </ul>
       </nav>
     </header>
-    <section>
+
+    <aside class="sidebar">
+      <h3>sidebar</h3>
+      <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+      </ul>
+      <ol>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+      </ol>
+    </aside>
+
+    <div class="container">
+<section>
+  <h1>title</h1>
 
 <!-- to create sidebars -->
-<aside>
-  <ul>
-    <li>item 1</li>
-    <li>item 2</li>
-    <li>item 3</li>
-  </ul>
-  <ol>
-    <li>item 1</li>
-    <li>item 2</li>
-    <li>item 3</li>
-  </ol>
 
-</aside>
   <!-- We use article for magazines, articles, or posts, etc. -->
-  <article>
-    <h1>Title</h1>
+
+
+  <article id="dog">
+
     <h2>Subtitle</h2>
     <p>
       <!-- This is for best practices -->
@@ -51,15 +65,20 @@
   Aenean commodo fermentum tellus, imperdiet condimentum nisi mattis sit amet. Phasellus sit amet faucibus mi. Cras ut lacinia lorem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam feugiat consequat porta. Nunc posuere elementum nunc, vitae sollicitudin erat vehicula sit amet. Etiam lectus ligula, imperdiet eu leo eu, porttitor ultricies mi. In eget finibus leo. Sed ante leo, lobortis ac facilisis semper, semper a erat. Nunc in libero tortor,
   <strong>placerat sit amet varius ut, scelerisque nec mauris. Fusce.</strong>
     </p>
-    <img src="img/smash.jpg" alt="Smash Ball" width="400px">
+
+    <!-- This is a relatve Tag (file is a reference) -->
+    <img src="img/smash.jpg" alt="Smash Ball" width="400">
 
   </article>
 
 
     </section>
-
+  </div>
 
 <section>
+
+<h2>contact</h2>
+
   <address>
 <ul>
   <li>Name: Andrew G</li>
@@ -71,6 +90,7 @@
 </section>
 
     <table>
+      <!-- tr=table row -->
       <tr>
         <!-- These are Table Headers -->
         <th>Human Years</th>

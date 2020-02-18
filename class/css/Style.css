@@ -1,0 +1,73 @@
+body {
+  background-color: rgb(74, 166, 124)
+}
+
+h1
+{
+      color: rgb(10, 103, 212);
+      font-family: 'bebas Neue'
+}
+
+
+
+/* This is a class */
+.container
+{
+  margin: auto;
+  padding: 20px;
+  background-color: rgb(30, 214, 226);
+  width: 50%;
+  box-shadow: 5px 7px 5px 2px rgb(171, 67, 185);
+  border-radius: 8px;
+}
+
+.container h1
+{
+  font-size: 4em;
+}
+
+.horizontalLine {
+  padding-top: 20px;
+}
+
+.horizontalLine li {
+  display: inline;
+  margin: 40px;
+  padding: 20px 60px 20px 60px;
+  background-color: white;
+  width: 1%;
+}
+
+.sidebar {
+  float: left;
+  margin: left: 60px;
+  padding: 20px;
+  background-color: white;
+  width: 10%;
+  box-shadow: 6px 7px 5px 2px #ededed;
+  border-radius: 20px;
+}
+
+.navigation {
+display: table;
+margin: 0 auto;
+margin-top: 30px;
+margin-bottom: 80px;
+}
+
+.horizontalLine li a {
+color: gray;
+text-decoration: none;
+font-family: sans-serif;
+}
+
+.horizontalLine li a:hover {
+  color: red;
+}
+
+/* This is an ID */
+#dog {
+  background-color: rgb(132, 232, 31);
+  width: 80%;
+  margin: auto;
+}

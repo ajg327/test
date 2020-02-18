@@ -1,0 +1,92 @@
+body
+{
+background-color: rgb(168, 164, 180)
+}
+h1
+{
+  color: rgb(17, 35, 70);
+  font-family: 'Bebas Neue'
+}
+h3
+{
+  color: navy;
+  font-family: 'Bebas Neue'
+}
+.education
+{
+  margin: auto;
+  padding: 20px;
+  background-color: rgb(94, 105, 111);
+  width: 50%;
+  border-radius: 8px;
+}
+.education ul
+{
+margin: auto;
+background-color: grey;
+}
+.education table
+{
+  margin: auto;
+  background-color: rgb(231, 194, 178);
+}
+.address
+{
+  margin: auto;
+  padding: 20px;
+  background-color: rgb(198, 172, 235);
+  width: 50%;
+  border-radius: 8px;
+}
+.header
+{
+  margin: auto;
+  padding: 20px;
+  background-color: rgb(67, 67, 78);
+  width: 50%;
+  border-radius: 8px;
+  border-color: black;
+}
+.About
+{
+  margin: auto;
+  padding: 20px;
+  background-color: grey;
+  width: 50%;
+  border-radius: 8px;
+}
+.About img
+{
+  margin: auto;
+  padding: 20px;
+  background-color: blue;
+  width: 50%;
+  border-radius: 8px;
+
+}
+.Work
+{
+  margin: auto;
+  background-color: rgb(49, 62, 61);
+  width: 50%;
+  border-radius: 8px;
+  padding: 20px;
+}
+.Work li a
+{
+  color: rgb(0, 9, 82);
+  text-decoration: none;
+  font-family: 'bebas Neue'
+}
+.Work li a:hover
+{
+  color: red;
+}
+.Skill
+{
+  margin: auto;
+  background-color: rgb(182, 171, 178);
+  padding: 20px;
+  width: 50%;
+  border-radius: 8px;
+}
