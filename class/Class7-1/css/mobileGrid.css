@@ -113,13 +113,13 @@ background-color: pink;
   margin-top: 50px;
   margin-bottom: 1650px;
   display: grid;
-  grid-template-areas:  "hea hea hea"
-                        "nav nav nav"
-                        "main main main"
-                        "foo foo foo";
+  grid-template-areas:  "hea"
+                        "nav"
+                        "main"
+                        "foo";
 
-  grid-template-rows: 20% 40% 200% 30%;
-  grid-template-columns: 1fr 1fr 1fr
+  grid-template-rows: 20% 40% 30% 20%;
+  grid-template-columns: 1fr
 
   /* Display the grids in a friendly mobile version */
 
