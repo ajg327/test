@@ -1,0 +1,636 @@
+/* This is general CSS used for all pages*/
+
+.horizontalLine {
+  padding-top: 20px;
+}
+
+.horizontalLine li {
+  display: inline;
+  margin: 40px;
+  padding: 20px 60px 20px 60px;
+}
+.horizontalLine li a {
+color: white;
+text-decoration: none;
+font-family: 'Roboto';
+}
+
+.horizontalLine li a:hover {
+  color: purple;
+}
+.header
+{
+  background-color: black;
+  font-size: 20px;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  top: 0px;
+}
+/* This is CSS for the home page*/
+
+.container
+{
+  margin: auto;
+  width: 50%;
+  align-items: center;
+}
+.movingImage
+{
+  height: 90%;
+  background-image: url("../img/everyoneishere.png");
+  overflow: hidden;
+
+  animation: movingNames 85s linear infinite;
+
+}
+
+@keyframes movingNames {
+
+    0%
+    {
+      background-position: 0 0;
+    }
+
+    100%
+    {
+      background-position: -1920px 0;
+    }
+}
+
+.movingImage div
+{
+  padding-top: 15%;
+}
+.movingImage h2
+{
+  font-family: 'Bebas Neue';
+  font-size: 75px;
+  color: red;
+  text-align: center;
+  padding: 30px;
+  background-color: rgb(255, 255, 255, .9);
+}
+.homeh1
+{
+  font-family: 'Roboto', sans-serif;
+  color: rgb(85, 0, 136);
+  font-size: 40px;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+}
+.homeh1 a
+{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+.homeh1 a:hover
+{
+  color: purple
+}
+/* This is the Melee CSS*/
+.meleeh1
+{
+  font-family: 'Roboto', sans-serif;
+  color: rgb(85, 0, 136);
+  font-size: 50px
+}
+.meleeh2
+{
+font-family: 'Roboto', sans-serif;
+color: rgb(85, 0, 136);
+font-size: 40px
+}
+.meleeinfo
+{
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  font-size: 30px;
+  background-color: purple;
+}
+.meleebody
+{
+  background-color: rgb(145, 92, 170);
+}
+
+.meleechargrid
+{
+  width: 90%;
+  height: 90vh;
+  margin: auto;
+  display: grid;
+  grid-template-areas:  "hea hea2"
+                        "main main2"
+                        "foo foo2";
+
+  grid-template-rows: 23% 23% 23%;
+  grid-template-columns: .1fr 1fr;
+}
+.meleechargrid header
+{
+  background-color: lightblue;
+  grid-area: hea;
+}
+.meleechargrid header2
+{
+  background-color: rgb(224, 103, 103);
+  grid-area: hea2;
+  padding: 10px;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: lightblue;
+}
+.meleechargrid main
+{
+  background-color: navy;
+  grid-area: main;
+}
+.meleechargrid main2
+{
+  background-color: rgb(79, 94, 196);
+  grid-area: main2;
+  padding: 10px;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: navy;
+}
+.meleechargrid footer
+{
+  background-color: purple;
+  grid-area: foo;
+}
+.meleechargrid footer2
+{
+    background-color: lightpink;
+    grid-area: foo2;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: purple;
+}
+.meleestagegrid
+{
+  width: 90%;
+  height: 90vh;
+  margin: auto;
+  display: grid;
+  grid-template-areas:  "hea hea2"
+                        "main main2"
+                        "foo foo2";
+
+  grid-template-rows: 24.8% 30% 36.3%;
+  grid-template-columns: .1fr 1fr;
+}
+.meleestagegrid header
+{
+  background-color: lightblue;
+  grid-area: hea;
+}
+.meleestagegrid header2
+{
+  background-color: rgb(233, 164, 71);
+  grid-area: hea2;
+  padding: 40px;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: darkgreen;
+}
+.meleestagegrid main
+{
+  background-color: navy;
+  grid-area: main;
+}
+.meleestagegrid main2
+{
+  background-color: lightgreen;
+  grid-area: main2;
+  padding: 40px;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: yellow;
+}
+.meleestagegrid footer
+{
+  background-color: purple;
+  grid-area: foo;
+}
+.meleestagegrid footer2
+{
+    background-color: black;
+    grid-area: foo2;
+    padding: 90px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: purple;
+}
+.meleegamegrid
+{
+  width: 90%;
+  height: 90vh;
+  margin: auto;
+  display: grid;
+  grid-template-areas:  "hea hea2"
+                        "main main2"
+                        "nav nav2"
+                        "foo foo2";
+
+  grid-template-rows: 315 315 315 315;
+  grid-template-columns: 1fr 560;
+}
+.meleegamegrid header
+{
+  background-color: rgb(115, 22, 22);
+  grid-area: hea;
+  font-size: 50px;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(7, 8, 186);
+  padding: 40;
+}
+.meleegamegrid header2
+{
+  background-color: rgb(224, 103, 103);
+  grid-area: hea2;
+}
+.meleegamegrid main
+{
+  background-color: rgb(255, 168, 0);
+  grid-area: main;
+  font-size: 50px;
+  font-family: 'Roboto', sans-serif;
+  color: lightgreen;
+  padding: 40;
+}
+.meleegamegrid main2
+{
+  background-color: rgb(79, 94, 196);
+  grid-area: main2;
+}
+.meleegamegrid nav
+{
+  background-color: green;
+  grid-area: nav;
+  font-size: 50px;
+  font-family: 'Roboto', sans-serif;
+  color: purple;
+  padding: 40;
+}
+.meleegamegrid nav2
+{
+    background-color: lightpink;
+    grid-area: nav2;
+  }
+.meleegamegrid footer
+{
+  background-color: purple;
+  grid-area: foo;
+  font-size: 50px;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  padding: 40;
+}
+.meleegamegrid footer a
+{
+  font-size: 70px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  text-decoration: none;
+}
+.meleegamegrid footer2
+{
+  background-color: black;
+  grid-area: foo2;
+}
+.meleegamegrid footer a:hover
+{
+  color:lightpink;
+}
+/* This is the About Page CSS*/
+.aboutbody
+{
+  background-color: lightblue;
+}
+.abouth1
+{
+  font-family: 'Roboto', sans-serif;
+  color: rgb(0, 7, 179);
+  font-size: 50px
+}
+.abouth2
+{
+  font-family: 'Roboto', sans-serif;
+  color: rgb(0, 7, 179);
+  font-size: 40px
+}
+.aboutinfo
+{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 30px;
+  background-color: blue;
+}
+.aboutgrid
+{
+  width: 90%;
+  height: 90vh;
+  margin: auto;
+  display: grid;
+  grid-template-areas:  "hea hea2"
+                        "main main2"
+                        "nav nav2"
+                        "nav3 nav4"
+                        "foo foo2";
+
+  grid-template-rows: 30% 30% 30% 30% 30%;
+  grid-template-columns: .1fr 1fr;
+}
+.aboutgrid header
+{
+  background-color: red;
+  grid-area: hea;
+}
+.aboutgrid header2
+{
+  background-color: red;
+  grid-area: hea2;
+  font-size: 35px;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(237, 171, 43);
+
+}
+.aboutgrid main
+{
+  background-color: purple;
+  grid-area: main;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+
+}
+.aboutgrid main2
+{
+  background-color: purple;
+  grid-area: main2;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+
+}
+.aboutgrid nav
+{
+  background-color: orange;
+  grid-area: nav;
+}
+.aboutgrid nav2
+{
+  background-color: orange;
+  grid-area: nav2;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(111, 0, 0);
+
+}
+.aboutgrid nav3
+{
+  background-color: blue;
+  grid-area: nav3;
+}
+.aboutgrid nav4
+{
+  background-color: blue;
+  grid-area: nav4;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+
+}
+.aboutgrid footer
+{
+  background-color: white;
+  grid-area: foo;
+}
+.aboutgrid footer2
+{
+  background-color: white;
+  grid-area: foo2;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+}
+/* This is the Ultimate CSS*/
+.ultimatebody
+{
+  background-color: rgb(254, 132, 132);
+}
+.ultimateh1
+{
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  font-size: 50px
+}
+.ultimateh2
+{
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  font-size: 40px
+}
+.ultimateinfo
+{
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  font-size: 30px;
+  background-color: white;
+}
+.ultimatechargrid
+{
+  width: 90%;
+  height: 90vh;
+  margin: auto;
+  display: grid;
+  grid-template-areas:  "hea hea2"
+                        "main main2"
+                        "foo foo2";
+
+  grid-template-rows: 30% 32% 34%;
+  grid-template-columns: .1fr 1fr;
+}
+.ultimatechargrid header
+{
+  background-color:rgb(101, 0, 0) ;
+  grid-area: hea;
+}
+.ultimatechargrid header2
+{
+  background-color: black;
+  grid-area: hea2;
+  padding: 10px 10px 10px 10px;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  color:rgb(101, 0, 0) ;
+}
+.ultimatechargrid main
+{
+  background-color: pink;
+  grid-area: main;
+}
+.ultimatechargrid main2
+{
+  background-color: rgb(145, 0, 118);
+  grid-area: main2;
+  padding: 10px 10px 10px 10px;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  color: pink;
+}
+.ultimatechargrid footer
+{
+  background-color: black;
+  grid-area: foo;
+}
+.ultimatechargrid footer2
+{
+    background-color: rgb(255, 252, 0);
+    grid-area: foo2;
+    padding: 10px 10px 10px 10px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+.ultimatestagegrid
+{
+  width: 90%;
+  height: 90vh;
+  margin: auto;
+  display: grid;
+  grid-template-areas:  "hea hea2"
+                        "main main2"
+                        "foo foo2";
+
+  grid-template-rows: 24.8% 24.8% 33.2%;
+  grid-template-columns: .1fr 1fr;
+}
+.ultimatestagegrid header
+{
+  background-color:rgb white ;
+  grid-area: hea;
+}
+.ultimatestagegrid header2
+{
+  background-color: red;
+  grid-area: hea2;
+  padding: 10px 10px 10px 10px;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  color:white;
+}
+.ultimatestagegrid main
+{
+  background-color: orange;
+  grid-area: main;
+}
+.ultimatestagegrid main2
+{
+  background-color: orange;
+  grid-area: main2;
+  padding: 10px 10px 10px 10px;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  color: yellow;
+}
+.ultimatestagegrid footer
+{
+  background-color: black;
+  grid-area: foo;
+}
+.ultimatestagegrid footer2
+{
+    background-color: green;
+    grid-area: foo2;
+    padding: 10px 10px 10px 10px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: lightblue;
+}
+.ultimategamegrid
+{
+  width: 90%;
+  height: 90vh;
+  margin: auto;
+  display: grid;
+  grid-template-areas:  "hea hea2"
+                        "main main2"
+                        "nav nav2"
+                        "foo foo2";
+
+  grid-template-rows: 315 315 315 315;
+  grid-template-columns: 1fr 560;
+}
+.ultimategamegrid header
+{
+  background-color: navy;
+  grid-area: hea;
+  font-size: 50px;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(107, 176, 249);
+  padding: 40;
+}
+.ultimategamegrid header2
+{
+  background-color: rgb(224, 103, 103);
+  grid-area: hea2;
+}
+.ultimategamegrid main
+{
+  background-color: rgb(218, 150, 0);
+  grid-area: main;
+  font-size: 50px;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(235, 204, 0);
+  padding: 40;
+}
+.ultimategamegrid main2
+{
+  background-color: rgb(79, 94, 196);
+  grid-area: main2;
+}
+.ultimategamegrid nav
+{
+  background-color: rgb(16, 79, 0);
+  grid-area: nav;
+  font-size: 50px;
+  font-family: 'Roboto', sans-serif;
+  color: orange;
+  padding: 40;
+}
+.ultimategamegrid nav2
+{
+    background-color: lightpink;
+    grid-area: nav2;
+  }
+.ultimategamegrid footer
+{
+  background-color: black;
+  grid-area: foo;
+  font-size: 50px;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  padding: 40;
+}
+.ultimategamegrid footer a
+{
+  font-size: 70px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  text-decoration: none;
+}
+.ultimategamegrid footer2
+{
+  background-color: white;
+  grid-area: foo2;
+}
+.ultimategamegrid footer a:hover
+{
+  color:red;
+}
