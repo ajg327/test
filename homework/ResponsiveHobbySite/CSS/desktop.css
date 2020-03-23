@@ -64,7 +64,7 @@ font-family: 'Roboto';
 }
 .movingImage h2
 {
-  font-family: 'Bebas Neue';
+  font-family: 'Roboto';
   font-size: 75px;
   color: red;
   text-align: center;
@@ -126,7 +126,7 @@ font-size: 40px
                         "main main2"
                         "foo foo2";
 
-  grid-template-rows: 23% 23% 23%;
+  grid-template-rows: 33% 32% 23%;
   grid-template-columns: .1fr 1fr;
 }
 .meleechargrid header
@@ -166,7 +166,6 @@ font-size: 40px
 {
     background-color: lightpink;
     grid-area: foo2;
-    padding: 10px;
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
     color: purple;
@@ -296,7 +295,6 @@ font-size: 40px
   font-size: 70px;
   font-family: 'Roboto', sans-serif;
   color: white;
-  text-decoration: none;
 }
 .meleegamegrid footer2
 {
@@ -468,7 +466,7 @@ font-size: 40px
   padding: 10px 10px 10px 10px;
   font-size: 30px;
   font-family: 'Roboto', sans-serif;
-  color:rgb(101, 0, 0) ;
+  color: rgb(101, 0, 0);
 }
 .ultimatechargrid main
 {
@@ -623,7 +621,6 @@ font-size: 40px
   font-size: 70px;
   font-family: 'Roboto', sans-serif;
   color: white;
-  text-decoration: none;
 }
 .ultimategamegrid footer2
 {
