@@ -53,7 +53,7 @@ $("#_debughtml").click(function() {
 });
 
 $("#_debugcss").click(function(){
-  $(".smallGridBug").css("background-color", "lightblue");
+  $(".smallGridBug div:nth-child(4) p").css("background-color", "purple");
 });
 
 
