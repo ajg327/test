@@ -1,0 +1,148 @@
+body
+{
+  background-color: teal;
+}
+
+nav ul
+{
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+  align-content: center;
+  list-style-type: none;
+  font-size: 0;
+}
+
+nav ul li
+{
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+nav ul li a
+{
+  background-color: red;
+  display: inline-block;
+  width: 16.5%;
+  height: 100%;
+  font-family: sans-serif;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  line-height: 5;
+  text-decoration: none;
+  transition: background .3s;
+}
+
+nav ul li a:hover
+{
+  background-color: rgb(188, 246, 237);
+}
+
+header
+{
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 30px;
+  background-color: green;
+  color: white;
+}
+h2
+{
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 25px;
+  background-color: purple;
+  color: white;
+}
+
+.stepGrid
+{
+  width: 80%;
+  height: 80%;
+  display: grid;
+  margin: auto;
+  grid-template-areas:
+    "div div3 div5 div7 div9"
+    "div2 div4 div6 div8 div10";
+  grid-template-rows: .5fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.stepGrid div:first-child
+{
+grid-area: div;
+padding: 10px;
+font-size: 20px;
+background-color: yellow;
+text-align: center;
+font-family: 'Roboto';
+}
+
+.stepGrid div:nth-child(2)
+{
+grid-area: div2;
+}
+
+.stepGrid div:nth-child(3)
+{
+grid-area: div3;
+padding: 10px;
+font-size: 20px;
+background-color: lightblue;
+text-align: center;
+font-family: 'Roboto';
+}
+
+.stepGrid div:nth-child(4)
+{
+grid-area: div4
+}
+
+.stepGrid div:nth-child(5)
+{
+grid-area: div5;
+padding: 10px;
+font-size: 20px;
+background-color: orange;
+text-align: center;
+font-family: 'Roboto';
+
+}
+
+.stepGrid div:nth-child(6)
+{
+grid-area: div6
+}
+
+.stepGrid div:nth-child(7)
+{
+grid-area: div7;
+padding: 10px;
+font-size: 20px;
+background-color: lightgreen;
+text-align: center;
+font-family: 'Roboto';
+}
+
+.stepGrid div:nth-child(8)
+{
+grid-area: div8
+}
+
+.stepGrid div:nth-child(9)
+{
+grid-area: div9;
+padding: 10px;
+font-size: 20px;
+background-color: lightpink;
+text-align: center;
+font-family: 'Roboto';
+}
+
+.stepGrid div:nth-child(10)
+{
+grid-area: div10
+}
