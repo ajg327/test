@@ -7,14 +7,31 @@
     <meta name="content" content="jQueryA homework">
     <meta name="keywords" content="jQuery HTML homework">
     <link rel="stylesheet" href="css/jQueryA.css">
+    <link rel="stylesheet" href="css/jquery.pagepiling.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script type="text/javascript" src="js/jQueryA.js">
-
-    </script>
+    <script type="text/javascript" src="js/jQueryA.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.6/jquery.pagepiling.min.js"></script>
+    <script src="js/jquery.lettering-0.6.1.min.js" type="text/javascript"></script>
   </head>
   <body>
-  <nav>
+
+    <div id="PagePiling">
+
+  <div class="section page1">
+  <header> <h1>Hover over me!</h1> </header>
+</div>
+      <div class="section page2">
+    <h2 class="fancyTitle">How to make a Grilled Cheese<br/>&bull;   Hello!
+      This is a five step recipe on how to make a grilled cheese sandwich! The
+      grilled cheese sandwich is the perfect sandiwch in both taste and simplicty!
+      We hope you use this simple guide in order to make your own grilled cheese soon!
+      Some of these steps have fun aspects to them on the website so please press the
+      buttons on the top of the screen to make them work! &bull; <br/> Let's get started!</h2>
+  </div>
+  <div class="section page3">
+    <nav>
     <ul>
       <li> <a id="_show" href="#"> Show Step 1</a> </li>
       <li> <a id="_hide" href="#">Hide Step 1</a> </li>
@@ -23,39 +40,34 @@
       <li> <a id="_css" href="#">Step 4</a> </li>
       <li> <a id="_css2" href="#">Step 5</a> </li>
     </ul>
+    <div> <h3>Use the buttons above to change some aspects of the steps!</h3> </div>
   </nav>
-  <header> <h1>Hover over me!</h1> </header>
-  <main>
-    <h2>Hello! This is a 5 step recipe on how to make a grilled cheese sandwich! The grilled cheese sandwich is the perfect sandiwch in both taste and simplicty!
-    We hope you use this simple guide in order to make your own grilled cheese soon!
-    Some of these steps have fun aspects to them on the website so please press the
-    buttons on the top of the screen to make them work!</h2>
     <div class="stepGrid">
       <div>
         Get two slices of bread, two tablespoons of butter, and three slices of
         cheese to your liking.
       </div>
       <div>
-        <img src="img/ingredients.jpg" width="283px" height="250px" alt="ingredients">
+        <img src="img/ingredients.jpg" width="285.7px" height="250px" alt="ingredients">
       </div>
       <div>
         Butter the bread with a butter knife and then put the cheese between the
          two slices of bread.
       </div>
       <div>
-        <img src="img/butter.jpg" width="283px" height="250px" alt="Butter">
+        <img src="img/butter.jpg" width="285.7px" height="250px" alt="Butter">
       </div>
       <div>
         Press the Step 3 button!
       </div>
       <div>
-        <img src="img/pan.jpeg" width="283px" height="250px" alt="pan">
+        <img src="img/pan.jpeg" width="285.7px" height="250px" alt="pan">
       </div>
       <div>
         Place the sandwich on the pan and let cook for 3-5 minutes on each side.
       </div>
       <div>
-        <img src="img/grilledcheese.jpeg" width="283px" height="250px" alt="grilledcheese">
+        <img src="img/grilledcheese.jpeg" width="285.7px" height="250px" alt="grilledcheese">
       </div>
       <div>
         Turn off the heat and using a spatula, place the completed sandwich on a
@@ -65,7 +77,6 @@
         <img src="img/sandwich.jpg" width="290px" height="250px" alt="sandwich">
       </div>
     </div>
-  </main>
-
-
+  </div>
+</div>
   </body>

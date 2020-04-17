@@ -25,7 +25,7 @@ nav ul li a
 {
   background-color: red;
   display: inline-block;
-  width: 16.5%;
+  width: 16.667%;
   height: 100%;
   font-family: sans-serif;
   color: white;
@@ -45,16 +45,19 @@ header
 {
   text-align: center;
   font-family: 'Roboto';
-  font-size: 30px;
-  background-color: green;
+  font-size: 60px;
   color: white;
+  background-color: navy;
 }
 h2
 {
   text-align: center;
+}
+h3
+{
+  text-align: center;
+  font-size: 40px;
   font-family: 'Roboto';
-  font-size: 25px;
-  background-color: purple;
   color: white;
 }
 
@@ -67,7 +70,7 @@ h2
   grid-template-areas:
     "div div3 div5 div7 div9"
     "div2 div4 div6 div8 div10";
-  grid-template-rows: .5fr 1fr;
+  grid-template-rows: .1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
@@ -145,4 +148,50 @@ font-family: 'Roboto';
 .stepGrid div:nth-child(10)
 {
 grid-area: div10
+}
+
+.page1
+{
+  background-color: lightblue;
+}
+.page2
+{
+  background-color: lightgreen;
+}
+.page3
+{
+  background-color: teal;
+}
+
+.fancyTitle
+{
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  padding: 20px;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+.fancyTitle .line1
+{
+  font-size: 50px;
+  text-transform: uppercase;
+  display: block;
+  letter-spacing: 4px;
+}
+.fancyTitle .line2
+{
+  font-size: 40px;
+  font-weight: lighter;
+  text-transform: lowercase;
+  display: block;
+  font-style: italic;
+  margin-bottom: 8px;
+}
+.fancyTitle .line3
+{
+  font-size: 30px;
+  text-transform: uppercase;
+  display: block;
+  line-height: 34px;
 }

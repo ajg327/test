@@ -33,5 +33,9 @@ $("header").mouseleave(function() {
   $("header h1").html("Let's get started!");
 });
 
+$('#PagePiling').pagepiling();
+
+$('.fancyTitle').lettering('lines');
+
 
 });
