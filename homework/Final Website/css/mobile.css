@@ -1,3 +1,137 @@
-body{
-  overflow: auto;
+
+/*Home Page*/
+
+.page1
+{
+  background-color: green;
+}
+.page2
+{
+background-color: orange;
+}
+.page2 h1
+{
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: roboto;
+}
+.page2 a
+{
+  text-decoration: none;
+  text-align: justify;
+  font-size: 50px;
+  font-family: roboto;
+}
+.page2 a:hover
+{
+  color: red;
+}
+.page3
+{
+  background-color: teal;
+}
+.page3 h1
+{
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: roboto;
+}
+.page3 a
+{
+  text-decoration: none;
+  text-align: justify;
+  font-size: 50px;
+  font-family: roboto;
+}
+.page3 a:hover
+{
+  color: red;
+}
+.page4
+{
+  background-color: yellow;
+}
+.page4 h1
+{
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: roboto;
+}
+.page4 a
+{
+  text-decoration: none;
+  text-align: justify;
+  font-size: 50px;
+  font-family: roboto;
+}
+.page4 a:hover
+{
+  color: red;
+}
+.page5
+{
+  background-color: purple;
+}
+.page5 h1
+{
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: roboto;
+}
+.page5 a
+{
+  text-decoration: none;
+  text-align: justify;
+  font-size: 50px;
+  font-family: roboto;
+}
+.page5 a:hover
+{
+  color: red;
+}
+.page6
+{
+  background-color: pink;
+}
+.page6 h1
+{
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: roboto;
+}
+.page6 a
+{
+  text-decoration: none;
+  text-align: justify;
+  font-size: 50px;
+  font-family: roboto;
+}
+.page6 a:hover
+{
+  color: red;
+}
+.hometext
+{
+  text-align: center;
+  align-items: center;
+  font-size: 20px;
+  font-family: Roboto;
+  color: orange;
+}
+.homeh1
+{
+  text-align: center;
+  align-items: center;
+  font-size: 70px;
+  font-family: roboto;
+  color: orange;
+}
+img
+{
+  width: 500px;
 }
