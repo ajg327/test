@@ -1,9 +1,42 @@
+/* This is general CSS used for all pages*/
+.orange
+{
+  background-color: DarkOrange;
+}
+.wiki
+{
+  font-size: 70px;
+  color: Red;
+  font-family: roboto;
+}
+.horizontalLine {
+  padding-top: 10px;
+  background-color: DarkOrange;
+}
 
+.horizontalLine li {
+  display: inline;
+  margin: 5px;
+  padding: 10px 10px 10px 10px;
+}
+.horizontalLine li a {
+color: red;
+text-decoration: none;
+font-family: 'Roboto';
+}
+
+.horizontalLine li a:hover {
+  color: red;
+}
 /*Home Page*/
 
 .page1
 {
   background-color: green;
+}
+.page1 img
+{
+  width: 500px;
 }
 .page2
 {
@@ -27,9 +60,13 @@ background-color: orange;
 {
   color: red;
 }
+.page2 img
+{
+  width: 500px;
+}
 .page3
 {
-  background-color: teal;
+  background-color: navy;
 }
 .page3 h1
 {
@@ -37,6 +74,7 @@ background-color: orange;
   text-decoration: none;
   font-size: 30px;
   font-family: roboto;
+  color: black;
 }
 .page3 a
 {
@@ -44,14 +82,19 @@ background-color: orange;
   text-align: justify;
   font-size: 50px;
   font-family: roboto;
+  color: white;
 }
 .page3 a:hover
 {
   color: red;
 }
+.page3 img
+{
+  width: 500px;
+}
 .page4
 {
-  background-color: yellow;
+  background-color: red;
 }
 .page4 h1
 {
@@ -69,7 +112,11 @@ background-color: orange;
 }
 .page4 a:hover
 {
-  color: red;
+  color: white;
+}
+.page4 img
+{
+  width: 500px;
 }
 .page5
 {
@@ -88,10 +135,15 @@ background-color: orange;
   text-align: justify;
   font-size: 50px;
   font-family: roboto;
+  color: black;
 }
 .page5 a:hover
 {
   color: red;
+}
+.page5 img
+{
+  width: 500px;
 }
 .page6
 {
@@ -115,6 +167,10 @@ background-color: orange;
 {
   color: red;
 }
+.page6 img
+{
+  width: 500px;
+}
 .hometext
 {
   text-align: center;
@@ -131,7 +187,385 @@ background-color: orange;
   font-family: roboto;
   color: orange;
 }
-img
+/*Goku Page*/
+.gokuBody
 {
-  width: 500px;
+background-color: orange;
 }
+.openingbox
+{
+  background-color: rgb(255, 190, 92);
+}
+.openingbox img
+{
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 80%;
+}
+.openingbox h1
+{
+  color: black;
+  text-align: center;
+  font-size: 60px;
+  font-family: roboto;
+}
+.openingbox h3
+{
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  font-family: roboto;
+}
+.openingbox h4
+{
+  font-family: roboto;
+  color: black;
+  font-size: 20px;
+}
+.openingbox h5
+{
+  font-size: 15px;
+  color: black;
+  font-family: roboto;
+}
+.Biography
+{
+  font-size: 15px;
+  font-family: roboto;
+}
+.Biography h2
+{
+  font-size: 30px;
+  text-align: center;
+}
+.Biography div
+{
+  background-color: DarkOrange;
+  font-size: 20px;
+  text-align: center;
+}
+.specialmoves
+{
+  font-size: 30px;
+  text-align: center;
+  font-family: roboto;
+}
+.GokumoveGrid
+{
+  width: 80%;
+  height: 80%;
+  display: grid;
+  margin: auto;
+  grid-template-areas:
+    "div"
+    "div2"
+    "div3"
+    "div4"
+    "div5"
+    "div6";
+  grid-template-rows: .5fr .3fr .4fr .3fr .4fr .3fr;
+  grid-template-columns: 1fr;
+}
+.GokumoveGrid img
+{
+display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 100%;
+}
+.GokumoveGrid div:first-child
+{
+grid-area: div;
+background-color: DarkOrange;
+}
+
+.GokumoveGrid div:nth-child(2)
+{
+grid-area: div2;
+padding: 10px;
+font-size: 20px;
+text-align: center;
+font-family: 'Roboto';
+background: DarkOrange;
+}
+
+.GokumoveGrid div:nth-child(3)
+{
+grid-area: div3;
+background-color: DarkOrange;
+}
+
+.GokumoveGrid div:nth-child(4)
+{
+grid-area: div4;
+padding: 10px;
+font-size: 20px;
+text-align: center;
+font-family: 'Roboto';
+background-color: DarkOrange;
+}
+
+.GokumoveGrid div:nth-child(5)
+{
+grid-area: div5;
+background-color: DarkOrange;
+}
+.GokumoveGrid div:nth-child(6)
+{
+grid-area: div6;
+padding: 10px;
+font-size: 20px;
+text-align: center;
+font-family: 'Roboto';
+background-color: DarkOrange;
+}
+/*Vegeta Page*/
+.vegetaBody
+{
+  background-color: navy;
+}
+.Vegetabox
+{
+  background-color: rgb(94, 158, 254);
+}
+.Vegetabox img
+{
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 80%;
+}
+.Vegetabox h1
+{
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  font-family: roboto;
+}
+.Vegetabox h3
+{
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-family: roboto;
+}
+.Vegetabox h4
+{
+  font-family: roboto;
+  color: white;
+  font-size: 20px;
+}
+.Vegetabox h5
+{
+  font-size: 15px;
+  color: white;
+  font-family: roboto;
+}
+
+  .two
+  {
+    font-size: 70px;
+    color: white;
+    font-family: roboto;
+  }
+  .Linetwo {
+    padding-top: 10px;
+    background-color: blue;
+  }
+
+  .Linetwo li {
+    display: inline;
+    margin: 5px;
+    padding: 10px 10px 10px 10px;
+  }
+  .Linetwo li a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Roboto';
+  }
+
+  .Linetwo li a:hover {
+    color: red;
+  }
+  .vegetaBiography
+  {
+    font-size: 15px;
+    font-family: roboto;
+    color: white
+  }
+  .vegetaBiography h2
+  {
+    font-size: 30px;
+    text-align: center;
+    color: white
+  }
+  .vegetaBiography div
+  {
+    background-color: blue;
+    font-size: 20px;
+    text-align: center;
+  }
+  .VegetamoveGrid
+  {
+    width: 80%;
+    height: 80%;
+    display: grid;
+    margin: auto;
+    grid-template-areas:
+      "div"
+      "div2"
+      "div3"
+      "div4"
+      "div5"
+      "div6";
+    grid-template-rows: .5fr .3fr .4fr .3fr .4fr .3fr;
+    grid-template-columns: 1fr;
+  }
+  .VegetamoveGrid img
+  {
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+  }
+  .VegetamoveGrid div:first-child
+  {
+  grid-area: div;
+  background-color: blue;
+  }
+
+  .VegetamoveGrid div:nth-child(2)
+  {
+  grid-area: div2;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Roboto';
+  background: blue;
+  color: white;
+  }
+
+  .VegetamoveGrid div:nth-child(3)
+  {
+  grid-area: div3;
+  background-color: blue;
+  }
+
+  .VegetamoveGrid div:nth-child(4)
+  {
+  grid-area: div4;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Roboto';
+  background-color: blue;
+  color: white;
+  }
+
+  .VegetamoveGrid div:nth-child(5)
+  {
+  grid-area: div5;
+  background-color: blue;
+  }
+  .VegetamoveGrid div:nth-child(6)
+  {
+  grid-area: div6;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Roboto';
+  background-color: blue;
+  color: white;
+  }
+  .VegetatransformGrid
+  {
+    width: 80%;
+    height: 80%;
+    display: grid;
+    margin: auto;
+    grid-template-areas:
+      "div"
+      "div2"
+      "div3"
+      "div4"
+      "div5"
+      "div6";
+    grid-template-rows: .5fr .3fr .4fr .3fr .4fr .3fr;
+    grid-template-columns: 1fr;
+  }
+  .VegetatransformGrid div:first-child
+  {
+  grid-area: div;
+  background-color: blue;
+  }
+.VegetatransformGrid div:first-child img
+{
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+}
+  .VegetatransformGrid div:nth-child(2)
+  {
+  grid-area: div2;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Roboto';
+  background: blue;
+  color: white;
+  }
+
+  .VegetatransformGrid div:nth-child(3)
+  {
+  grid-area: div3;
+  background-color: blue;
+  }
+  .VegetatransformGrid div:nth-child(3) img
+  {
+    display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 50%;
+  }
+  .VegetatransformGrid div:nth-child(4)
+  {
+  grid-area: div4;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Roboto';
+  background-color: blue;
+  color: white;
+  }
+
+  .VegetatransformGrid div:nth-child(5)
+  {
+  grid-area: div5;
+  background-color: blue;
+  }
+  .VegetatransformGrid div:nth-child(5) img
+  {
+    display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 100%;
+  }
+  .VegetatransformGrid div:nth-child(6)
+  {
+  grid-area: div6;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Roboto';
+  background-color: blue;
+  color: white;
+  }
+  .VegetaH2
+  {
+    color: white;
+    font-family: roboto;
+    text-align: center;
+    font-size: 30px;
+  }
