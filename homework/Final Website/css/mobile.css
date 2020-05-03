@@ -55,6 +55,7 @@ background-color: orange;
   text-align: justify;
   font-size: 50px;
   font-family: roboto;
+  color: black;
 }
 .page2 a:hover
 {
@@ -109,10 +110,11 @@ background-color: orange;
   text-align: justify;
   font-size: 50px;
   font-family: roboto;
+  color: white;
 }
 .page4 a:hover
 {
-  color: white;
+  color: yellow;
 }
 .page4 img
 {
@@ -147,7 +149,7 @@ background-color: orange;
 }
 .page6
 {
-  background-color: pink;
+  background-color: darkgreen;
 }
 .page6 h1
 {
@@ -162,6 +164,7 @@ background-color: orange;
   text-align: justify;
   font-size: 50px;
   font-family: roboto;
+  color: white
 }
 .page6 a:hover
 {
@@ -569,3 +572,794 @@ background-color: DarkOrange;
     text-align: center;
     font-size: 30px;
   }
+  /*Gohan Page*/
+  .GohanBody
+  {
+    background-color: Red;
+  }
+  .Gohanbox
+  {
+    background-color: rgb(255, 91, 91);
+  }
+  .Gohanbox img
+  {
+    display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 80%;
+  }
+  .Gohanbox h1
+  {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-family: roboto;
+  }
+  .Gohanbox h3
+  {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: roboto;
+  }
+  .Gohanbox h4
+  {
+    font-family: roboto;
+    color: white;
+    font-size: 20px;
+  }
+  .Gohanbox h5
+  {
+    font-size: 15px;
+    color: white;
+    font-family: roboto;
+  }
+  .three
+  {
+    font-size: 70px;
+    color: white;
+    font-family: roboto;
+  }
+  .Linethree {
+    padding-top: 10px;
+    background-color: darkred;
+  }
+
+  .Linethree li {
+    display: inline;
+    margin: 5px;
+    padding: 10px 10px 10px 10px;
+  }
+  .Linethree li a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Roboto';
+  }
+
+  .Linethree li a:hover {
+    color: orange;
+  }
+  .gohanBiography
+  {
+    font-size: 15px;
+    font-family: roboto;
+    color: white
+  }
+  .gohanBiography h2
+  {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+  }
+  .gohanBiography div
+  {
+    background-color: darkred;
+    font-size: 20px;
+    text-align: center;
+  }
+  .gohanmoveGrid
+  {
+    width: 80%;
+    height: 80%;
+    display: grid;
+    margin: auto;
+    grid-template-areas:
+      "div"
+      "div2"
+      "div3"
+      "div4"
+      "div5"
+      "div6";
+    grid-template-rows: .5fr .25fr .4fr .25fr .4fr .2fr;
+    grid-template-columns: 1fr;
+  }
+  .gohanmoveGrid div:first-child
+  {
+  grid-area: div;
+  background-color: darkred;
+  }
+.gohanmoveGrid div:first-child img
+{
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+}
+  .gohanmoveGrid div:nth-child(2)
+  {
+  grid-area: div2;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Roboto';
+  background: darkred;
+  color: white;
+  }
+
+  .gohanmoveGrid div:nth-child(3)
+  {
+  grid-area: div3;
+  background-color: darkred;
+  }
+  .gohanmoveGrid div:nth-child(3) img
+  {
+    display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 100%;
+  }
+  .gohanmoveGrid div:nth-child(4)
+  {
+  grid-area: div4;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Roboto';
+  background-color: darkred;
+  color: white;
+  }
+
+  .gohanmoveGrid div:nth-child(5)
+  {
+  grid-area: div5;
+  background-color: darkred;
+  }
+  .gohanmoveGrid div:nth-child(5) img
+  {
+    display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 100%;
+  }
+  .gohanmoveGrid div:nth-child(6)
+  {
+  grid-area: div6;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Roboto';
+  background-color: darkred;
+  color: white;
+  }
+  .gohantransformGrid
+  {
+    width: 80%;
+    height: 80%;
+    display: grid;
+    margin: auto;
+    grid-template-areas:
+      "div"
+      "div2"
+      "div3"
+      "div4"
+      "div5"
+      "div6";
+    grid-template-rows: .5fr .25fr .4fr .25fr .4fr .2fr;
+    grid-template-columns: 1fr;
+  }
+  .gohantransformGrid div:first-child
+  {
+  grid-area: div;
+  background-color: darkred;
+  }
+.gohantransformGrid div:first-child img
+{
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 70%;
+}
+  .gohantransformGrid div:nth-child(2)
+  {
+  grid-area: div2;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Roboto';
+  background: darkred;
+  color: white;
+  }
+
+  .gohantransformGrid div:nth-child(3)
+  {
+  grid-area: div3;
+  background-color: darkred;
+  }
+  .gohantransformGrid div:nth-child(3) img
+  {
+    display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 50%;
+  }
+  .gohantransformGrid div:nth-child(4)
+  {
+  grid-area: div4;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Roboto';
+  background-color: darkred;
+  color: white;
+  }
+
+  .gohantransformGrid div:nth-child(5)
+  {
+  grid-area: div5;
+  background-color: darkred;
+  }
+  .gohantransformGrid div:nth-child(5) img
+  {
+    display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 60%;
+  }
+  .gohantransformGrid div:nth-child(6)
+  {
+  grid-area: div6;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Roboto';
+  background-color: darkred;
+  color: white;
+  }
+.gohanh2
+{
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  font-family: roboto;
+}
+/*Frieza Page*/
+.stepGrid
+{
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  background-color: rgb(185, 112, 196);
+}
+.FriezaBody
+{
+  background-color: Purple;
+}
+.Friezabox
+{
+  background-color: rgb(185, 112, 196);
+}
+.Friezabox img
+{
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 60%;
+}
+.Friezabox h1
+{
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  font-family: roboto;
+}
+.Friezabox h3
+{
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-family: roboto;
+}
+.Friezabox h4
+{
+  font-family: roboto;
+  color: white;
+  font-size: 20px;
+}
+.Friezabox h5
+{
+  font-size: 15px;
+  color: white;
+  font-family: roboto;
+}
+.four
+{
+  font-size: 70px;
+  color: white;
+  font-family: roboto;
+}
+.boxF
+{
+  display: inline;
+  margin: 5px;
+  padding: 10px 10px 10px 10px;
+  }
+  .boxF li
+{
+    display: inline;
+    margin: 5px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
+.boxF li a {
+color: white;
+text-decoration: none;
+font-family: 'Roboto';
+}
+
+.boxF li a:hover {
+  color: red;
+}
+.Linefour {
+  padding-top: 10px;
+  background-color: rgb(80, 0, 150);
+}
+
+.Linefour li {
+  display: inline;
+  margin: 5px;
+  padding: 10px 10px 10px 10px;
+}
+.Linefour li a {
+color: white;
+text-decoration: none;
+font-family: 'Roboto';
+}
+
+.Linefour li a:hover {
+  color: red;
+}
+.FriezaBiography
+{
+  font-size: 15px;
+  font-family: roboto;
+  color: white
+}
+.FriezaBiography h2
+{
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+.FriezaBiography div
+{
+  background-color:rgb(80, 0, 150) ;
+  font-size: 20px;
+  text-align: center;
+}
+.friezamoveGrid
+{
+  width: 80%;
+  height: 80%;
+  display: grid;
+  margin: auto;
+  grid-template-areas:
+    "div"
+    "div2"
+    "div3"
+    "div4"
+    "div5"
+    "div6";
+  grid-template-rows: .5fr .25fr .4fr .25fr .4fr .2fr;
+  grid-template-columns: 1fr;
+}
+.friezamoveGrid div:first-child
+{
+grid-area: div;
+background-color: rgb(80, 0, 150);
+}
+.friezamoveGrid div:first-child img
+{
+display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 100%;
+}
+.friezamoveGrid div:nth-child(2)
+{
+grid-area: div2;
+padding: 10px;
+font-size: 20px;
+text-align: center;
+font-family: 'Roboto';
+background: rgb(80, 0, 150);
+color: white;
+}
+
+.friezamoveGrid div:nth-child(3)
+{
+grid-area: div3;
+background-color: darkred;
+}
+.friezamoveGrid div:nth-child(3) img
+{
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+}
+.friezamoveGrid div:nth-child(4)
+{
+grid-area: div4;
+padding: 10px;
+font-size: 20px;
+text-align: center;
+font-family: 'Roboto';
+background-color:rgb(80, 0, 150);
+color: white;
+}
+
+.friezamoveGrid div:nth-child(5)
+{
+grid-area: div5;
+background-color: darkred;
+}
+.friezamoveGrid div:nth-child(5) img
+{
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+}
+.friezamoveGrid div:nth-child(6)
+{
+grid-area: div6;
+padding: 10px;
+font-size: 20px;
+text-align: center;
+font-family: 'Roboto';
+background-color: rgb(80, 0, 150);
+color: white;
+}
+.Friezah2
+{
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  font-family: roboto;
+}
+.friezatransformGrid
+{
+  width: 80%;
+  height: 80%;
+  display: grid;
+  margin: auto;
+  grid-template-areas:
+    "div"
+    "div2"
+    "div3"
+    "div4"
+    "div5"
+    "div6";
+  grid-template-rows: .5fr .25fr .4fr .25fr .4fr .2fr;
+  grid-template-columns: 1fr;
+}
+.friezatransformGrid div:first-child
+{
+grid-area: div;
+background-color: rgb(80, 0, 150);
+}
+.friezatransformGrid div:first-child img
+{
+display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 70%;
+}
+.friezatransformGrid div:nth-child(2)
+{
+grid-area: div2;
+padding: 10px;
+font-size: 20px;
+text-align: center;
+font-family: 'Roboto';
+background: rgb(80, 0, 150);
+color: white;
+}
+
+.friezatransformGrid div:nth-child(3)
+{
+grid-area: div3;
+background-color: rgb(80, 0, 150);
+}
+.friezatransformGrid div:nth-child(3) img
+{
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+}
+.friezatransformGrid div:nth-child(4)
+{
+grid-area: div4;
+padding: 10px;
+font-size: 20px;
+text-align: center;
+font-family: 'Roboto';
+background-color: rgb(80, 0, 150);
+color: white;
+}
+
+.friezatransformGrid div:nth-child(5)
+{
+grid-area: div5;
+background-color: rgb(80, 0, 150);
+}
+.friezatransformGrid div:nth-child(5) img
+{
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 60%;
+}
+.friezatransformGrid div:nth-child(6)
+{
+grid-area: div6;
+padding: 10px;
+font-size: 20px;
+text-align: center;
+font-family: 'Roboto';
+background-color: rgb(80, 0, 150);
+color: white;
+}
+/*Inspiration Page*/
+
+.inspirationbody
+{
+  background-color: darkgreen;
+}
+.five
+{
+  font-size: 70px;
+  color: white;
+  font-family: roboto;
+}
+.Linefive {
+  padding-top: 10px;
+  background-color: Orange;
+}
+
+.Linefive li {
+  display: inline;
+  margin: 5px;
+  padding: 10px 10px 10px 10px;
+}
+.Linefive li a {
+color: white;
+text-decoration: none;
+font-family: 'Roboto';
+}
+
+.Linefive li a:hover {
+  color: red;
+}
+.linkGrid
+{
+  width: 80%;
+  height: 80%;
+  display: grid;
+  margin: auto;
+  grid-template-areas:
+    "div"
+    "div2"
+    "div3"
+    "div4"
+    "div5"
+    "div6"
+    "div7"
+    "div8"
+    "div9"
+    "div10";
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+}
+
+.linkGrid div:first-child
+{
+grid-area: div;
+background-color: orange;
+}
+.linkGrid div:first-child img
+{
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+.linkGrid div:nth-child(2)
+{
+grid-area: div2;
+padding: 10px;
+font-size: 20px;
+background-color: orange;
+text-align: center;
+font-family: 'Roboto';
+}
+
+.linkGrid div:nth-child(3)
+{
+grid-area: div3;
+background-color: orange;
+}
+.linkGrid div:nth-child(3) img
+{
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+.linkGrid div:nth-child(4)
+{
+grid-area: div4;
+padding: 10px;
+font-size: 20px;
+background-color: orange;
+text-align: center;
+font-family: 'Roboto';
+}
+.linkGrid div:nth-child(5)
+{
+grid-area: div5;
+}
+.linkGrid div:nth-child(5) img
+{
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+}
+.linkGrid div:nth-child(6)
+{
+grid-area: div6;
+padding: 10px;
+font-size: 20px;
+background-color: orange;
+text-align: center;
+font-family: 'Roboto';
+}
+.linkGrid div:nth-child(7)
+{
+grid-area: div7;
+}
+.linkGrid div:nth-child(7) img
+{
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+}
+.linkGrid div:nth-child(8)
+{
+grid-area: div8;
+padding: 10px;
+font-size: 20px;
+background-color: orange;
+text-align: center;
+font-family: 'Roboto';
+}
+.linkGrid div:nth-child(9)
+{
+grid-area: div9;
+}
+.linkGrid div:nth-child(9) img
+{
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+}
+.linkGrid div:nth-child(10)
+{
+grid-area: div10;
+padding: 10px;
+font-size: 20px;
+background-color: orange;
+text-align: center;
+font-family: 'Roboto';
+}
+.wireframegrid
+  {
+    width: 80%;
+    height: 80%;
+    display: grid;
+    margin: auto;
+    grid-template-areas:
+      "div"
+      "div2"
+      "div3"
+      "div4";
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  .wireframegrid div:first-child
+  {
+    grid-area: div;
+    padding: 10px;
+    font-size: 20px;
+    background-color: orange;
+    text-align: center;
+    font-family: 'Roboto';
+  }
+.wireframegrid div:nth-child(2)
+{
+  grid-area: div2;
+}
+.wireframegrid div:nth-child(2) img
+{
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+}
+.wireframegrid div:nth-child(3)
+{
+  grid-area: div3;
+  padding: 10px;
+  font-size: 20px;
+  background-color: orange;
+  text-align: center;
+  font-family: 'Roboto';
+}
+.wireframegrid div:nth-child(4)
+{
+  grid-area: div4;
+}
+.wireframegrid div:nth-child(4) img
+{
+  grid-area: div4;
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+}
+.ad img
+{
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+}
+.inspirationh1
+{
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  font-family: roboto;
+}
+.inspirationh2
+{
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  font-family: roboto;
+}
+.inspirationtext
+{
+  font-size: 20px;
+  background-color: orange;
+  text-align: center;
+  font-family: 'Roboto';
+}
+.jsdbz
+{
+  text-decoration: none;
+  color: green;
+}
