@@ -323,6 +323,75 @@ text-align: center;
 font-family: 'Roboto';
 background-color: DarkOrange;
 }
+.GokutransformGrid
+{
+  width: 80%;
+  height: 80%;
+  display: grid;
+  margin: auto;
+  grid-template-areas:
+    "div"
+    "div2"
+    "div3"
+    "div4"
+    "div5"
+    "div6";
+  grid-template-rows: .5fr .3fr .4fr .3fr .4fr .3fr;
+  grid-template-columns: 1fr;
+}
+.GokutransformGrid img
+{
+display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 100%;
+}
+.GokutransformGrid div:first-child
+{
+grid-area: div;
+background-color: DarkOrange;
+}
+
+.GokutransformGrid div:nth-child(2)
+{
+grid-area: div2;
+padding: 10px;
+font-size: 20px;
+text-align: center;
+font-family: 'Roboto';
+background: DarkOrange;
+}
+
+.GokutransformGrid div:nth-child(3)
+{
+grid-area: div3;
+background-color: DarkOrange;
+}
+
+.GokutransformGrid div:nth-child(4)
+{
+grid-area: div4;
+padding: 10px;
+font-size: 20px;
+text-align: center;
+font-family: 'Roboto';
+background-color: DarkOrange;
+}
+
+.GokutransformGrid div:nth-child(5)
+{
+grid-area: div5;
+background-color: DarkOrange;
+}
+.GokutransformGrid div:nth-child(6)
+{
+grid-area: div6;
+padding: 10px;
+font-size: 20px;
+text-align: center;
+font-family: 'Roboto';
+background-color: DarkOrange;
+}
 /*Vegeta Page*/
 .vegetaBody
 {
@@ -1169,7 +1238,7 @@ font-family: 'Roboto';
     "div8"
     "div9"
     "div10";
-  grid-template-rows: 1fr;
+  grid-template-rows: .5fr .2fr .3fr .5fr .5fr .5fr .2fr .3fr .5fr .5fr;
   grid-template-columns: 1fr;
 }
 
@@ -1244,6 +1313,7 @@ grid-area: div7;
    margin-left: auto;
    margin-right: auto;
    width: 100%;
+   height: 100%;
 }
 .linkGrid div:nth-child(8)
 {
@@ -1285,7 +1355,7 @@ font-family: 'Roboto';
       "div2"
       "div3"
       "div4";
-    grid-template-rows: 1fr;
+    grid-template-rows: .07fr 1fr .07fr 1fr;
     grid-template-columns: 1fr;
   }
 
@@ -1357,9 +1427,4 @@ font-family: 'Roboto';
   background-color: orange;
   text-align: center;
   font-family: 'Roboto';
-}
-.jsdbz
-{
-  text-decoration: none;
-  color: green;
 }
