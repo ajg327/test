@@ -28,6 +28,7 @@ font-family: 'Roboto';
 .horizontalLine li a:hover {
   color: red;
 }
+
 /*Home Page*/
 
 .page1
@@ -209,6 +210,25 @@ background-color: orange;
   color: orange;
 }
 /*Goku Page*/
+.gokuButton {}
+
+.gokuButton li {
+  display: inline-flex;
+  padding-left: 60px;
+  padding-right: 70px;
+border: solid;
+background-color: DarkOrange;
+}
+.gokuButton li a {
+color: red;
+text-decoration: none;
+font-family: 'Roboto';
+font-size: 20px;
+}
+
+.gokuButton li a:hover {
+  color: white;
+}
 .gokuBody
 {
 background-color: orange;
@@ -224,7 +244,7 @@ background-color: orange;
   display: block;
    margin-left: auto;
    margin-right: auto;
-   width: 56%;
+   width: 60%;
 }
 .openingbox h1
 {
@@ -464,6 +484,26 @@ border-bottom: solid;
 border-right: solid;
 }
 /*Vegeta Page*/
+.vegetaButton {}
+
+.vegetaButton li {
+  display: inline-flex;
+  padding-left: 60px;
+  padding-right: 70px;
+border: solid;
+background-color: blue;
+border-color: white;
+}
+.vegetaButton li a {
+color: white;
+text-decoration: none;
+font-family: 'Roboto';
+font-size: 20px;
+}
+
+.vegetaButton li a:hover {
+  color: red;
+}
 .vegetaBody
 {
   background-color: navy;
@@ -759,6 +799,29 @@ border-right: solid;
     font-size: 30px;
   }
   /*Gohan Page*/
+  .gohanButton {
+    align: center;
+  }
+
+  .gohanButton li {
+    display: inline-flex;
+    padding-left: 50px;
+    padding-right: 50px;
+  border: solid;
+  background-color: darkred;
+  border-color: white;
+  text-align: center;
+  }
+  .gohanButton li a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-size: 20px;
+  }
+
+  .gohanButton li a:hover {
+    color: orange;
+  }
   .GohanBody
   {
     background-color: Red;
@@ -1064,6 +1127,29 @@ border-right: solid;
   font-family: roboto;
 }
 /*Frieza Page*/
+.friezaButton {
+  align: center;
+}
+
+.friezaButton li {
+  display: inline-flex;
+  padding-left: 40px;
+  padding-right: 40px;
+border: solid;
+background-color: rgb(80, 0, 150);
+border-color: white;
+text-align: center;
+}
+.friezaButton li a {
+color: white;
+text-decoration: none;
+font-family: 'Roboto';
+font-size: 20px;
+}
+
+.friezaButton li a:hover {
+  color: red;
+}
 .FriezaBody
 {
   background-color: Purple;
